@@ -23,7 +23,7 @@ Example: ```SERVER_IP = "192.168.1.10"```<br>
 3.Run the client:<br>
 ```python client_file.py```<br>
 4.Enter:<br>
-      File name to send (e.g., movie.mp4)<br>
+      File name to send (e.g., text.txt)<br>
       Packet size (e.g., 8192)<br>
       Enable or disable congestion (y/n)<br>
 ### Step 4: Observe Real-Time Graph<br>
