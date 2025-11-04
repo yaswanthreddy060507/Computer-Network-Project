@@ -42,8 +42,8 @@ Peak Speed
 Average Speed
 Packet Size
 Congestion Mode
----
-✅ File sent successfully!
+
+```✅ File sent successfully!```
 📁 Graph saved: speed_graph_8192B.png
 
 📊 Transfer Summary
