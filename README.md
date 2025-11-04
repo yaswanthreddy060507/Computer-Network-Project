@@ -11,49 +11,48 @@ The project also features a live throughput graph plotted using matplotlib, enab
 ```pip install matplotlib```<br>
 3.Connect both systems to the same WiFi network (wireless LAN).<br>
 ### Step 2: Configure Server
-1.Open the server_file.py on the receiver’s machine.
-2.Run:
-```python server_file.py```
-3.The terminal will display:
-``` waiting for connection... ```
-### Step 3: Configure Client
-1.On the sender's machine, open client_file.py.
-2.In the code, set the correct SERVER_IP (the IP address of the server machine).
-Example: ```SERVER_IP = "192.168.1.10"```
-3.Run the client:
-```python client_file.py```
-4.Enter:
-      File name to send (e.g., movie.mp4)
-      Packet size (e.g., 8192)
-      Enable or disable congestion (y/n)
-### Step 4: Observe Real-Time Graph
-The system dynamically displays a Live Network Throughput Graph (Mbps vs Time).
-Key elements shown:
-Blue Line: Live transmission speed
-Dashed Line: Average throughput
-Marker Point: Peak speed
-### Step 5: Results & Analysis
-After the transfer completes:
-A graph image (e.g., speed_graph_8192B.png) is saved.
-Terminal displays performance summary:
-File Size
-Total Time
-Peak Speed
-Average Speed
-Packet Size
-Congestion Mode
+1.Open the server_file.py on the receiver’s machine.<br>
+2.Run:<br>
+```python server_file.py```<br>
+3.The terminal will display:<br>
+``` waiting for connection... ```<br>
+### Step 3: Configure Client<br>
+1.On the sender's machine, open client_file.py.<br>
+2.In the code, set the correct SERVER_IP (the IP address of the server machine).<br>
+Example: ```SERVER_IP = "192.168.1.10"```<br>
+3.Run the client:<br>
+```python client_file.py```<br>
+4.Enter:<br>
+      File name to send (e.g., movie.mp4)<br>
+      Packet size (e.g., 8192)<br>
+      Enable or disable congestion (y/n)<br>
+### Step 4: Observe Real-Time Graph<br>
+The system dynamically displays a Live Network Throughput Graph (Mbps vs Time).<br>
+Key elements shown:<br>
+Blue Line: Live transmission speed<br>
+Dashed Line: Average throughput<br>
+Marker Point: Peak speed<br>
+### Step 5: Results & Analysis<br>
+After the transfer completes:<br>
+A graph image (e.g., speed_graph_8192B.png) is saved.<br>
+Terminal displays performance summary:<br>
+File Size<br>
+Total Time<br>
+Peak Speed<br>
+Average Speed<br>
+Packet Size<br>
+Congestion Mode<br>
 
-```✅ File sent successfully!```
-📁 Graph saved: speed_graph_8192B.png
-
-📊 Transfer Summary
-----------------------------
-File Size:        3950.23 MB
-Total Time:       84.12 sec
-Peak Speed:       71.6 Mbps ⚡
-Average Speed:    58.2 Mbps
-Packet Size:      8192 bytes
-Packets Sent:     48210
-Congestion Mode:  Disabled
-----------------------------
----
+```✅ File sent successfully!```<br>
+📁 Graph saved: speed_graph_8192B.png<br>
+📊 Transfer Summary<br>
+----------------------------<br>
+File Size:        3950.23 MB<br>
+Total Time:       84.12 sec<br>
+Peak Speed:       71.6 Mbps ⚡<br>
+Average Speed:    58.2 Mbps<br>
+Packet Size:      8192 bytes<br>
+Packets Sent:     48210<br>
+Congestion Mode:  Disabled<br>
+----------------------------<br>
+---<br>
