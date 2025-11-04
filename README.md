@@ -36,14 +36,14 @@ Marker Point: Peak speed<br>
 After the transfer completes:<br>
 A graph image (e.g., speed_graph_8192B.png) is saved.<br>
 Terminal displays performance summary:<br>
-File Size<br>
-Total Time<br>
-Peak Speed<br>
-Average Speed<br>
-Packet Size<br>
-Congestion Mode<br>
+     1.File Size<br>
+     2.Total Time<br>
+     3.Peak Speed<br>
+     4.Average Speed<br>
+     5.Packet Size<br>
+     6.Congestion Mode<br>
 
-```✅ File sent successfully!```<br>
+```✅ File sent successfully!<br>
 📁 Graph saved: speed_graph_8192B.png<br>
 📊 Transfer Summary<br>
 ----------------------------<br>
@@ -55,4 +55,4 @@ Packet Size:      8192 bytes<br>
 Packets Sent:     48210<br>
 Congestion Mode:  Disabled<br>
 ----------------------------<br>
----<br>
+```
